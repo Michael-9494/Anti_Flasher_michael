@@ -1,0 +1,13 @@
+R =2 # the colour dimantion in BGR. use in extract_color
+G =1 # the colour dimantion in BGR. use in extract_color
+B =0 # the colour dimantion in BGR. use in extract_color
+dim_for_CLRGB =3 # run over 3 dimantion. use in cluster_frames_RGB
+one_dim =1 # for preallocation. use in dense_cluster_frames
+Percentage =100 # . use in read_vid_to_frames
+fc =0 # frame_count for iterations
+defaulte_frame_shrink =50 #  use in  functions.read_vid_to_frames
+how_many_squares_each_dim =2 # how many squars in each dimantion . use in functions.cluster_frames_RGB
+how_many_squares =4 # how_many_squares_each_dim times 2!
+spectflag =0 # for spectrogram print
+Ms_to_sec =0.001 # from milisecond to secont convertion
+time_near_danger =0.5 # which timestamps to choose in the time given
